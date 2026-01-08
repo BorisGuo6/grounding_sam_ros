@@ -100,7 +100,7 @@ class VitDetectionServer(object):
         # mask_annotator = sv.MaskAnnotator()
         box_annotator = sv.BoxAnnotator()
         label_annotator = sv.LabelAnnotator()
-
+        print(detections)
         result = [
             f"{labels[class_id]}:{confidence:0.2f}" 
             for _, _, confidence, class_id, _, _ 
