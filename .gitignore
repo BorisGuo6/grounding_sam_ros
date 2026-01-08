@@ -2,3 +2,4 @@ __pycache__/
 weights/
 /src/groundingdino/__pycache__/
 *.pyc
+GroundingDINO/
